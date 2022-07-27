@@ -1,0 +1,7 @@
+*/terraform*
+*/.terraform*
+
+# env.tfvars
+
+*/localstack*.tf
+*/*/localstack*.tf
