@@ -12,7 +12,7 @@ resource "aws_instance" "myinstance" {
     VAR_RDS_USERNAME = var.rds_username_mysql, 
     VAR_RDS_PASSWORD = var.rds_password_mysql,
     VAR_PORT_SSH = var.ssh_port,
-    VAR_DIR_CLOUDOPSS = "/var/cloudopss"
+    VAR_DIR = "/var/config"
   })
   #user_data       = file("user-data/bootstrap.sh")
 
